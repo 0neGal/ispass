@@ -6,7 +6,7 @@ What is this?
 As an example for a Bash script you can do this:
 
 ```bash
-$(sudo ispass <username> <password>) && {
+sudo ispass <username> <password> && {
 	echo correct
 } || {
 	echo incorrect
